@@ -1,17 +1,22 @@
-let ism = "Mirzobek";
-let yosh = 16;
+// You can create a const object:
+const car = {type:"Fiat", model:"500", color:"white"};
 
-console.log("Salom " + ism);
-console.log("Yosh: " + yosh);
+// You can change a property:
+car.color = "red";
 
-let a = 5;
-let b = 3;
+// You can add a property:
+car.owner = "Johnson";
 
-let yigindi = a + b;
-console.log("Yig'indi: " + yigindi);
+const car = {type:"Fiat", model:"500", color:"white"};
 
-function salom() {
-  console.log("Xush kelibsiz!");
+car = {type:"Volvo", model:"EX60", color:"red"}    // ERROR
+
+const x = 10;
+// Here x is 10
+
+{
+const x = 2;
+// Here x is 2
 }
 
-salom();
+// Here x is 10
