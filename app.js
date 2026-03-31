@@ -1,17 +1,36 @@
-let ism = "Mirzobek";
-let yosh = 16;
+// String
+let color = "Yellow";
+let lastName = "Johnson";
 
-console.log("Salom " + ism);
-console.log("Yosh: " + yosh);
+// Number
+let length = 16;
+let weight = 7.5;
 
-let a = 5;
-let b = 3;
+// BigInt
+let x = 1234567890123456789012345n;
+let y = BigInt(1234567890123456789012345)
 
-let yigindi = a + b;
-console.log("Yig'indi: " + yigindi);
+// Boolean
+let x = true;
+let y = false;
 
-function salom() {
-  console.log("Xush kelibsiz!");
-}
+// Object
+const person = {firstName:"John", lastName:"Doe"};
 
-salom();
+// Array object
+const cars = ["Saab", "Volvo", "BMW"];
+
+// Date object
+const date = new Date("2022-03-25");
+
+// Undefined
+let x;
+let y;
+
+// Null
+let x = null;
+let y = null;
+
+// Symbol
+const x = Symbol();
+const y = Symbol();
